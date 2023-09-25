@@ -1,0 +1,16 @@
+#app {
+  width: 1200px;
+  height: 1717px;
+  background-color: #555;
+  padding: 40px;
+}
+.selected {
+  color: red;
+  font-weight: bold;
+}
+.genre-and-sort{
+  display: flex;
+  justify-content: space-between;
+  margin-top: 15px;
+  background-color: #232323;
+}

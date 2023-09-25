@@ -1,0 +1,50 @@
+.selectedBox {
+  display: flex;
+  padding: 40px 57px 20px 57px;
+  background-color: #232323;
+  color: rgba(255, 255, 255, 1);
+}
+img {
+  width: 323.41px;
+  height: 486px;
+}
+
+.rightBox {
+  margin-left: 57px;
+  .movieInfo {
+    display: flex;
+    align-items: center;
+    .movieName {
+      font-size: 40px;
+    }
+    .rating {
+      width: 60px;
+      height: 60px;
+      border-radius: 60px;
+      border: 1px solid #fff;
+      margin-left: 20px;
+      font-size: 20px;
+      text-align: center;
+      line-height: 60px;
+    }
+  }
+
+  .genre {
+    color: rgba(255, 255, 255, 0.5);
+    font-size: 14px;
+  }
+  .extraInfo {
+    padding-top: 15px;
+    color: rgba(246, 82, 97, 1);
+    font-size: 24px;
+    > span:nth-child(2) {
+      margin-left: 40px;
+    }
+  }
+
+  .description {
+    font-size: 20px;
+    color: rgba(255, 255, 255, 0.5);
+    margin-top: 30px;
+  }
+}
