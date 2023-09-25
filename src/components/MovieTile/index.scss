@@ -1,0 +1,28 @@
+.movie-content {
+  cursor: pointer;
+
+  img {
+    width: 322px;
+    height: 455px;
+  }
+
+  .movie-info {
+    display: flex;
+    justify-content: space-between;
+    .movie-name {
+      font-size: 18px;
+    }
+
+    .release-year {
+      width: 66px;
+      height: 26px;
+      border: 1px solid #979797;
+      border-radius: 4px;
+      text-align: center;
+    }
+  }
+  .genre {
+    font-size: 14px;
+    color: rgba(255, 255, 255, 0.5);
+  }
+}
